@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "filefit",
+  "name": "PixelPermit",
+  "nameStatus": "provisional",
+  "platform": "iOS",
+  "summary": "Prepare photos for simultaneous byte, pixel and format constraints with verified exports.",
+  "status": "in-development",
+  "releasedAt": null,
+  "appStoreURL": null,
+  "showcaseURL": "https://github.com/sepidehdalir/filefit-showcase",
+  "sourceVisibility": "private",
+  "technologies": [
+    "Swift 6",
+    "SwiftUI",
+    "ImageIO",
+    "Core Graphics",
+    "StoreKit 2",
+    "XCTest"
+  ],
+  "screenshots": [
+    "images/01-under-200kb.png",
+    "images/02-requirements.png",
+    "images/03-inspect-detail.png"
+  ],
+  "privacy": "On-device image processing; no account, tracking or remote analytics SDK.",
+  "monetization": "Free single-image workflow; proposed one-time Lifetime Pro for reuse.",
+  "includeInReleasedApps": false,
+  "lastUpdated": "2026-09-26"
+}
