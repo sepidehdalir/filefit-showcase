@@ -48,6 +48,8 @@ Image processing is local. Originals are preserved; rendered exports strip sourc
 
 Deterministic synthetic image fixtures exercise transparency, EXIF orientation, HEIC, exact/max dimensions, byte thresholds, malformed input, cancellation and large-image downsampling. StoreKitTest covers verified ownership and edge cases. XCTest UI flows cover the free result, sharing, lifecycle and accessibility checks. Simulator evidence is recorded separately from physical-device and real App Store sandbox verification.
 
+[Dated QA milestone and remaining gates](QA.md).
+
 This showcase does not claim release readiness, revenue, download counts, App Store ranking or user validation.
 
 ## App Store
