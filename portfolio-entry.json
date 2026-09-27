@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "filefit",
   "name": "Pixmere",
-  "nameStatus": "provisional-not-legally-cleared-or-reserved",
+  "nameStatus": "app-store-connect-title-accepted-no-legal-clearance-asserted",
   "platform": "iOS",
   "summary": "Prepare photos for simultaneous byte, pixel and format constraints with verified exports.",
-  "status": "in-development",
+  "status": "pre-release",
   "releasedAt": null,
   "appStoreURL": null,
   "showcaseURL": "https://github.com/sepidehdalir/filefit-showcase",
@@ -19,20 +19,18 @@
     "XCTest"
   ],
   "screenshots": [
-    "images/pixmere-requirement.png",
-    "images/pixmere-result.png",
-    "images/pixmere-preview.png"
+    "images/pixmere-campaign.png"
   ],
   "privacy": "On-device image processing; no account, tracking or remote analytics SDK.",
-  "monetization": "Free single-image workflow; proposed one-time Lifetime Pro for reuse.",
+  "monetization": "Free single-image workflow; US $4.99 base-price one-time Lifetime Pro; localized StoreKit price",
   "includeInReleasedApps": false,
   "lastUpdated": "2026-09-27",
-  "screenshotStatus": "actual final SwiftUI simulator captures; locked icon, provisional consumer name; not submitted",
+  "screenshotStatus": "Six-image coastal editorial campaign; real UI components, original generated photograph and measured encoded output",
   "engineeringIdentity": "FileFit",
   "provisionalAppStoreTitle": "Pixmere: Photo Compressor",
   "iconDirection": "D / Abstract Exact Fit — user-approved and locked",
   "testflightStatus": "deferred-by-user",
   "publisher": "Arvinify Technology Inc.",
-  "releaseReadiness": "ready-after-device-qa; App Store Connect gates remain",
+  "releaseReadiness": "ready-to-submit; six-image replacement campaign uploaded; final owner confirmation pending; not submitted",
   "qaSummary": "iOS17.0 runtime tested; 20 unit tests, 125 host photo cases, 7 native iPhone camera cases; spoken VoiceOver and real sandbox pending"
 }

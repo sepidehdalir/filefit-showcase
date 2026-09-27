@@ -6,7 +6,7 @@
 
 Pixmere is a native iPhone utility that prepares still images for uploads with simultaneous file-size, pixel-dimension and format constraints. It creates a separate copy, reads the encoded file back, and reports what passed before export.
 
-**Status:** In development. Not released or submitted to the App Store. Pixmere is the provisional consumer brand; FileFit remains the stable engineering/repository identity. The name is not legally cleared or reserved. This public repository is a portfolio showcase; commercial application source is maintained privately.
+**Status:** Production 1.0 (1) is uploaded and processed in App Store Connect. Not released or submitted. Apple accepted the title Pixmere: Photo Compressor; no legal clearance is asserted. FileFit remains the stable engineering/repository identity. This public repository is a portfolio showcase; commercial application source is maintained privately.
 
 ## Problem and product
 
@@ -26,11 +26,10 @@ Application forms often reject an otherwise useful photo because it exceeds a by
 
 ## Screenshots
 
-Actual SwiftUI screens captured on 2026-09-27 with the provisional Pixmere identity. The product artwork is developer-owned synthetic test content. These are pre-release screenshots, not evidence of an App Store listing.
+Six-image App Store launch campaign, using original generated photography, real SwiftUI components and measured output from the production image processor. The pictured example goes from 3.3 MB to 198,503 bytes at 600 × 600. No conversion-performance or lossless-quality claim is made.
 
-| Requirement | Verified output |
-| --- | --- |
-| ![Pixmere requirement screen](images/pixmere-requirement.png) | ![Pixmere verified result](images/pixmere-result.png) |
+![Pixmere six-image launch campaign](images/pixmere-campaign.png)
+
 
 ## Technology and architecture
 
@@ -42,7 +41,7 @@ See [engineering decisions](ENGINEERING.md) for the implementation tradeoffs.
 
 ## Privacy and business model
 
-Image processing is local. Originals are preserved; rendered exports strip source location/camera metadata. No accounts, ads, tracking or remote analytics SDK. Apple handles payments. Free users can finish the complete single-photo task. A proposed US $4.99 non-consumable unlocks reuse features; the actual paywall uses localized StoreKit prices.
+Image processing is local. Originals are preserved; rendered exports strip source location/camera metadata. No accounts, ads, tracking or remote analytics SDK. Apple handles payments. Free users can finish the complete single-photo task. A US $4.99 base-price non-consumable unlocks reuse features; the actual paywall uses localized StoreKit prices.
 
 [Privacy policy](PRIVACY.md) · [Support](SUPPORT.md)
 
@@ -66,7 +65,7 @@ Not available yet. An App Store link will be added only after a real listing exi
 
 ## Visual identity
 
-The user-approved, locked exact-fit P pairs a square image boundary with a single fitted pixel corner. Four focused refinements were evaluated at 1024, 60 and 40 px after an earlier fold proved too suggestive of paper. The locked visual identity uses emerald, ivory and muted sage across the icon, SwiftUI screens and paywall. Visual selection is qualitative; App Store conversion has not yet been measured. Pixmere remains a provisional consumer name pending final account verification.
+The user-approved, locked exact-fit P pairs a square image boundary with a single fitted pixel corner. Four focused refinements were evaluated at 1024, 60 and 40 px after an earlier fold proved too suggestive of paper. The locked visual identity uses emerald, ivory and muted sage across the icon, SwiftUI screens and paywall. Visual selection is qualitative; App Store conversion has not yet been measured. Apple accepted the Pixmere: Photo Compressor title on 2026-09-27; no legal clearance is asserted.
 
 ## Publisher and support
 
