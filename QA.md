@@ -19,3 +19,5 @@ The public photo corpus is attributed to [ianare/exif-samples contributors](http
 ## Still required before shipping
 
 Human checks: spoken VoiceOver, actual provider/denied-permission flows, user-photo/face/document quality, large-camera stress and physical keyboard/rotation acceptance. Account checks: final name reservation, production identifiers/signing, real sandbox purchasing/offline ownership, App Store disclosures, distribution validation and submission approval. No App Store URL, market demand, revenue or production commerce is claimed.
+
+The final CI baseline passed all 20 unit tests and five UI scenarios. A Files-picker harness issue on iOS 18 was corrected by explicitly selecting the saved location and querying its remote Browse control directly. The focused CI retry passed export, an empty relaunch and actual 600×600 reimport. These are separate passing evidence sets, not a rewritten all-green initial run. Production app code was unchanged by the test-navigation corrections.
