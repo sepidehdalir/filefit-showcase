@@ -1,14 +1,14 @@
-# PixelPermit · iOS product engineering
+# FileFit · iOS product engineering
 
 **A photo that fits the limit.**
 
-PixelPermit is a native iPhone utility that prepares still images for uploads with simultaneous file-size, pixel-dimension and format constraints. It creates a separate copy, reads the encoded file back, and reports what passed before export.
+FileFit is a native iPhone utility that prepares still images for uploads with simultaneous file-size, pixel-dimension and format constraints. It creates a separate copy, reads the encoded file back, and reports what passed before export.
 
-**Status:** In development. Not released or submitted to the App Store. PixelPermit is a provisional product name. This public repository is a portfolio showcase; commercial application source is maintained privately.
+**Status:** In development. Not released or submitted to the App Store. FileFit is the engineering codename; consumer naming is reopened. This public repository is a portfolio showcase; commercial application source is maintained privately.
 
 ## Problem and product
 
-Application forms often reject an otherwise useful photo because it exceeds a byte limit or has the wrong dimensions. Repeatedly adjusting a JPEG quality slider does not tell the user whether both requirements are satisfied. PixelPermit turns those requirements into a short workflow:
+Application forms often reject an otherwise useful photo because it exceeds a byte limit or has the wrong dimensions. Repeatedly adjusting a JPEG quality slider does not tell the user whether both requirements are satisfied. FileFit turns those requirements into a short workflow:
 
 **Choose photo → Set requirement → Make it fit → Verify → Save or share.**
 
@@ -24,11 +24,11 @@ Application forms often reject an otherwise useful photo because it exceeds a by
 
 ## Screenshots
 
-| Fit the limit | Set the requirement | Inspect the detail |
-| --- | --- | --- |
-| ![Verified image under 200 KB](images/01-under-200kb.png) | ![Byte and pixel requirements](images/02-requirements.png) | ![Full-size output inspection](images/03-inspect-detail.png) |
+Actual development UI captured on 2026-09-26 after the naming correction, using the **FileFit engineering codename**. These are engineering screenshots, not final brand or App Store assets. Previous branded compositions are retired. The image is deterministic developer-owned test content.
 
-Actual iPhone 17 Pro Max simulator UI, arranged into App Store compositions. The demo illustration is developer-owned deterministic test content. No customer photo is used, and no UI or verification values are fabricated.
+| Requirement | Verified output |
+| --- | --- |
+| ![Working requirement screen](images/working-requirement.png) | ![Working verified result](images/working-result.png) |
 
 ## Technology and architecture
 

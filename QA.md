@@ -15,3 +15,9 @@ These results come from separate runs. Earlier checks caught and resolved a Phot
 Remaining release gates include real sandbox/TestFlight commerce, older-OS compatibility, a real-camera/document legibility corpus, complete VoiceOver navigation, denied-permission checks, external Files providers and uninterrupted physical-device testing. The contrast audit covers stable first/result screens; native scroll-edge material limits automated contrast interpretation on scrolled content.
 
 Synthetic fixtures are reproducible engineering tests, not user validation, portal certification or proof of market demand.
+
+## Naming correction — 2026-09-26
+
+Consumer naming has been reopened. FileFit is the engineering codename. Previous branded screenshots are withdrawn from this showcase, and the earlier signed archive is historical evidence only. New release artwork and a fresh archive are required after naming is resolved. The neutral development bundle builds and all five local StoreKit tests pass after the development product ID change. No production purchase migration or release is claimed.
+
+The post-correction conversion/result/share UI test also passed. Current README images are unchanged attachments from that simulator test, visually inspected; they show the engineering codename and synthetic test artwork.

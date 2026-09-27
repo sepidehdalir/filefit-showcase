@@ -1,6 +1,6 @@
-# PixelPermit support
+# FileFit support
 
-PixelPermit is currently in development and has not been released on the App Store.
+FileFit is currently in development and has not been released on the App Store.
 
 For a product question or bug report, [open an issue](https://github.com/sepidehdalir/filefit-showcase/issues/new). Include your iOS version, app version, chosen limits, source format and a description of the problem. **Issues are public. Do not attach personal photos, application documents, purchase receipts, account identifiers or other sensitive information.** A non-sensitive synthetic reproduction is preferable.
 
@@ -14,7 +14,7 @@ KB is 1,000 bytes; MB is 1,000,000. Fit preserves proportions inside maximum dim
 
 ## Saving and sharing
 
-Use Save to Files for the verified encoded file. Photos and messaging apps may re-encode it. PixelPermit cannot control a destination's changes or guarantee website acceptance. Originals are not overwritten. Temporary prepared copies are removed when you prepare again or on the next fresh launch, so save any copy you want to keep.
+Use Save to Files for the verified encoded file. Photos and messaging apps may re-encode it. FileFit cannot control a destination's changes or guarantee website acceptance. Originals are not overwritten. Temporary prepared copies are removed when you prepare again or on the next fresh launch, so save any copy you want to keep.
 
 ## Photos permission
 
