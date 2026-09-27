@@ -1,7 +1,7 @@
 # Pixmere privacy policy
 Effective September 27, 2026. Applicable to version 1.0.0. Pixmere is developed and operated by **Arvinify Technology Inc.** The app has not yet been released on the App Store.
 
-Pixmere processes images on your device. The app does not operate an image-upload service, require an account, include advertising SDKs, or transmit analytics events. We do not collect your photos, filenames, presets or location.
+Pixmere processes images on your device. The app does not operate an image-upload service, require an account, include advertising SDKs, or transmit analytics events. The app does not transmit your photos, filenames, presets or location to us.
 
 When you use Photos, Apple's system picker supplies only the images you choose. Save to Photos requests add-only permission to create a new copy. Files access is limited to items you choose in the system picker. Originals are not modified.
 
@@ -13,4 +13,4 @@ Apple processes purchases and provides verified purchase entitlements. Pixmere d
 
 When you share or export a file, the destination you select receives that file and applies its own practices. Sharing destinations or Photos may re-encode images, so the exported copy's verified byte count need not describe a later transformed copy.
 
-For support, use the published support page linked from the App Store listing. Do not submit sensitive photos or documents in public support requests. If you email support, we receive the information you voluntarily send and use it to respond to your request. Do not send sensitive photos, identity documents, payment information or passwords. Contact [hello@arvinify.com](mailto:hello@arvinify.com) with privacy questions. Company: [Arvinify Technology Inc.](https://www.arvinify.com), phone [+1 604 727 2615](tel:+16047272615). We do not sell support messages or use them for advertising. Retain no support material longer than needed for the request or applicable obligations. Review this policy again if the final distribution build changes these practices.
+For support, use the published support page linked from the App Store listing. Do not submit sensitive photos or documents in public support requests. If you email support, we receive the information you voluntarily send and use it to respond to your request. Do not send sensitive photos, identity documents, payment information or passwords. Contact [hello@arvinify.com](mailto:hello@arvinify.com) with privacy questions. Company: [Arvinify Technology Inc.](https://www.arvinify.com), phone [+1 604 727 2615](tel:+16047272615). We do not sell support messages or use them for advertising. We retain support messages only as long as needed to resolve the request or meet applicable obligations. Review this policy again if the final distribution build changes these practices.

@@ -10,7 +10,7 @@
 - **Visual review:** nature, interior, HDR, macro and orientation comparisons retained recognizable detail without obvious tinting at the tested limits. This is not a guarantee that every low-byte image preserves readable fine text or faces.
 - **Accessibility:** light/dark contrast checks and small-screen largest Dynamic Type conversion/paywall tests passed. Explicit outcome focus and purchase-status announcements are implemented. Spoken VoiceOver remains a human acceptance gate.
 - **Commerce:** local StoreKit tests cover unavailable products, purchase/cancel/failure/pending/approval, restore, ownership reload, refund and simulated product-lookup failure while owned. Paywall uses the loaded StoreKit display price. These tests do not validate a live App Store product.
-- **Release packaging:** a development-signed Release1.0.0(1) archive passed local signature checks and was installed/launched on a physical phone. No debug fixture or local StoreKit configuration is bundled. The locked1024 icon, metadata lengths and screenshot formats pass scripted checks.
+- **Release packaging:** a development-signed Release 1.0.0 (1) archive passed local signature checks and was installed/launched on a physical phone. No debug fixture or local StoreKit configuration is bundled. The locked 1024 px icon, metadata lengths and screenshot formats pass scripted checks.
 
 Some initial UI runs failed because system selectors differed on iOS17, an accessibility service reported an invalid process, or a tap did not navigate. Harness corrections and isolated retests passed; no combined initial run is represented as all-green. Physical-device recordings, signing data and original photo corpus are not published.
 
