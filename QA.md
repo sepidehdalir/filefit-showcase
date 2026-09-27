@@ -39,3 +39,7 @@ D replaces the earlier paper-fold P as the provisional working recommendation. T
 The preceding source revision also passed [GitHub CI](https://github.com/sepidehdalir/filefit-ios/actions/runs/36303996013); this is distinct from the local asset-refinement validation.
 
 The exact-fit revision also passed two targeted small-screen Dark Mode checks at the largest accessibility text size; the first screen and paywall were visually inspected.
+
+## Locked production direction — September 27, 2026
+
+The user approved the exact-fit P as the final icon direction. The consumer name remains provisional. A full local simulator run passed 19 unit tests and six UI tests. Targeted follow-ups passed five StoreKit tests plus paywall presentation after pricing-load sequencing was improved, and three Dark Mode UI checks after an on-device white-on-sage button contrast finding was fixed. The physical suite itself did not pass and requires a follow-up; one audit was interrupted by phone use. A fresh development-signed Release candidate passed local signature verification. TestFlight was explicitly deferred; no distribution readiness, real sandbox result or App Store release is claimed.

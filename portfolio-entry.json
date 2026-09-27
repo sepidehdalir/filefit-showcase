@@ -27,7 +27,9 @@
   "monetization": "Free single-image workflow; proposed one-time Lifetime Pro for reuse.",
   "includeInReleasedApps": false,
   "lastUpdated": "2026-09-27",
-  "screenshotStatus": "actual SwiftUI captures with provisional Pixmere branding; not submitted",
+  "screenshotStatus": "actual final SwiftUI simulator captures; locked icon, provisional consumer name; not submitted",
   "engineeringIdentity": "FileFit",
-  "provisionalAppStoreTitle": "Pixmere: Photo Compressor"
+  "provisionalAppStoreTitle": "Pixmere: Photo Compressor",
+  "iconDirection": "D / Abstract Exact Fit — user-approved and locked",
+  "testflightStatus": "deferred-by-user"
 }
