@@ -1,6 +1,6 @@
 # Pixmere · iOS product engineering
 
-<img src="images/pixmere-icon.png" width="96" alt="Pixmere folded P icon">
+<img src="images/pixmere-icon.png" width="96" alt="Pixmere exact-fit P icon">
 
 **A photo that fits the limit.**
 
@@ -63,3 +63,7 @@ Not available yet. An App Store link will be added only after a real listing exi
 `portfolio-entry.json` is a portable entry for a future master iOS portfolio. Its release status is explicit and its App Store URL is null until launch. The public package contains product screenshots, technical discussion and non-sensitive implementation details; no signing material or production source.
 
 © 2026 sepidehdalir. Portfolio content and product artwork are not licensed for redistribution as an application.
+
+## Visual identity
+
+The provisional exact-fit P pairs a square image boundary with a single fitted pixel corner. Four focused refinements were evaluated at 1024, 60 and 40 px after an earlier fold proved too suggestive of paper. The working identity uses emerald, ivory and muted sage across the icon, SwiftUI screens and paywall. The recommendation is qualitative; App Store conversion has not yet been measured.
