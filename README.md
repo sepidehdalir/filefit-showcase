@@ -67,3 +67,7 @@ Not available yet. An App Store link will be added only after a real listing exi
 ## Visual identity
 
 The user-approved, locked exact-fit P pairs a square image boundary with a single fitted pixel corner. Four focused refinements were evaluated at 1024, 60 and 40 px after an earlier fold proved too suggestive of paper. The locked visual identity uses emerald, ivory and muted sage across the icon, SwiftUI screens and paywall. Visual selection is qualitative; App Store conversion has not yet been measured. Pixmere remains a provisional consumer name pending final account verification.
+
+## Publisher and support
+
+Developed by **Arvinify Technology Inc.** Contact [hello@arvinify.com](mailto:hello@arvinify.com). Copyright 2026 Arvinify Technology Inc. Public support and privacy details are maintained alongside this project.
