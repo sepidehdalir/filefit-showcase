@@ -1,14 +1,16 @@
-# FileFit · iOS product engineering
+# Pixmere · iOS product engineering
+
+<img src="images/pixmere-icon.png" width="96" alt="Pixmere folded P icon">
 
 **A photo that fits the limit.**
 
-FileFit is a native iPhone utility that prepares still images for uploads with simultaneous file-size, pixel-dimension and format constraints. It creates a separate copy, reads the encoded file back, and reports what passed before export.
+Pixmere is a native iPhone utility that prepares still images for uploads with simultaneous file-size, pixel-dimension and format constraints. It creates a separate copy, reads the encoded file back, and reports what passed before export.
 
-**Status:** In development. Not released or submitted to the App Store. FileFit is the engineering codename; consumer naming is reopened. This public repository is a portfolio showcase; commercial application source is maintained privately.
+**Status:** In development. Not released or submitted to the App Store. Pixmere is the provisional consumer brand; FileFit remains the stable engineering/repository identity. The name is not legally cleared or reserved. This public repository is a portfolio showcase; commercial application source is maintained privately.
 
 ## Problem and product
 
-Application forms often reject an otherwise useful photo because it exceeds a byte limit or has the wrong dimensions. Repeatedly adjusting a JPEG quality slider does not tell the user whether both requirements are satisfied. FileFit turns those requirements into a short workflow:
+Application forms often reject an otherwise useful photo because it exceeds a byte limit or has the wrong dimensions. Repeatedly adjusting a JPEG quality slider does not tell the user whether both requirements are satisfied. Pixmere turns those requirements into a short workflow:
 
 **Choose photo → Set requirement → Make it fit → Verify → Save or share.**
 
@@ -24,11 +26,11 @@ Application forms often reject an otherwise useful photo because it exceeds a by
 
 ## Screenshots
 
-Actual development UI captured on 2026-09-26 after the naming correction, using the **FileFit engineering codename**. These are engineering screenshots, not final brand or App Store assets. Previous branded compositions are retired. The image is deterministic developer-owned test content.
+Actual SwiftUI screens captured on 2026-09-27 with the provisional Pixmere identity. The product artwork is developer-owned synthetic test content. These are pre-release screenshots, not evidence of an App Store listing.
 
 | Requirement | Verified output |
 | --- | --- |
-| ![Working requirement screen](images/working-requirement.png) | ![Working verified result](images/working-result.png) |
+| ![Pixmere requirement screen](images/pixmere-requirement.png) | ![Pixmere verified result](images/pixmere-result.png) |
 
 ## Technology and architecture
 

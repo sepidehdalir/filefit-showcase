@@ -21,3 +21,13 @@ Synthetic fixtures are reproducible engineering tests, not user validation, port
 Consumer naming has been reopened. FileFit is the engineering codename. Previous branded screenshots are withdrawn from this showcase, and the earlier signed archive is historical evidence only. New release artwork and a fresh archive are required after naming is resolved. The neutral development bundle builds and all five local StoreKit tests pass after the development product ID change. No production purchase migration or release is claimed.
 
 The post-correction conversion/result/share UI test also passed. Current README images are unchanged attachments from that simulator test, visually inspected; they show the engineering codename and synthetic test artwork.
+
+## Provisional Pixmere identity — September 27, 2026
+
+The user selected Pixmere provisionally while retaining FileFit engineering/repository names. Five distinct icon directions were developed; the selected folded P was evaluated at full size, 40 px and 60 px, and on a simulator Home Screen. The UI, paywall and screenshots now share evergreen, ivory and citron. No name clearance or reservation is claimed.
+
+All 19 unit tests passed after branding. All six simulator UI scenarios have passing evidence across separate runs, including the real localized StoreKit test price, conversion/share, preview, Photos import/save, Files export and targeted accessibility/lifecycle checks. The Photos permission test race was fixed; an infrastructure accessibility error passed on isolated retry. This is not a claim that every intermediate run was green. A fresh development-signed archive built and passed local signature verification; the first Pixmere archive installed and launched on the connected phone. The updated physical test run remains blocked by device lock. App Store Connect login is unavailable, so account configuration, real sandbox purchases, distribution validation and name reservation remain open.
+
+Two additional small-screen UI checks passed on iPhone SE (3rd generation), iOS 26.2, Dark Mode with the largest accessibility text size. The first screen and paywall were visually inspected. This is targeted accessibility evidence, not a complete spoken VoiceOver audit.
+
+The final retained Pixmere archive, including the paywall layout refinement, was also installed successfully on the connected iPhone on September 27. Physical test execution remains a separate outstanding gate.

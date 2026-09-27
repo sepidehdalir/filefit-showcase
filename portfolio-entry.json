@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "id": "filefit",
-  "name": "FileFit",
-  "nameStatus": "engineering-codename-naming-reopened",
+  "name": "Pixmere",
+  "nameStatus": "provisional-not-legally-cleared-or-reserved",
   "platform": "iOS",
   "summary": "Prepare photos for simultaneous byte, pixel and format constraints with verified exports.",
   "status": "in-development",
@@ -19,12 +19,15 @@
     "XCTest"
   ],
   "screenshots": [
-    "images/working-requirement.png",
-    "images/working-result.png"
+    "images/pixmere-requirement.png",
+    "images/pixmere-result.png",
+    "images/pixmere-preview.png"
   ],
   "privacy": "On-device image processing; no account, tracking or remote analytics SDK.",
   "monetization": "Free single-image workflow; proposed one-time Lifetime Pro for reuse.",
   "includeInReleasedApps": false,
-  "lastUpdated": "2026-09-26",
-  "screenshotStatus": "engineering-codename captures; final branding pending"
+  "lastUpdated": "2026-09-27",
+  "screenshotStatus": "actual SwiftUI captures with provisional Pixmere branding; not submitted",
+  "engineeringIdentity": "FileFit",
+  "provisionalAppStoreTitle": "Pixmere: Photo Compressor"
 }
