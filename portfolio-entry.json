@@ -31,5 +31,8 @@
   "engineeringIdentity": "FileFit",
   "provisionalAppStoreTitle": "Pixmere: Photo Compressor",
   "iconDirection": "D / Abstract Exact Fit — user-approved and locked",
-  "testflightStatus": "deferred-by-user"
+  "testflightStatus": "deferred-by-user",
+  "publisher": "Arvinify Technology Inc.",
+  "releaseReadiness": "ready-after-device-qa; App Store Connect gates remain",
+  "qaSummary": "iOS17.0 runtime tested; 20 unit tests, 125 host photo cases, 7 native iPhone camera cases; spoken VoiceOver and real sandbox pending"
 }

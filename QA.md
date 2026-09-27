@@ -1,45 +1,21 @@
-# QA milestone — September 26, 2026
+# Pre-submission QA — September 27, 2026
 
-This is pre-release engineering evidence. No App Store submission or production purchase is claimed.
+**Not released or submitted.** Pixmere is a provisional consumer name; FileFit remains the internal engineering identity. The exact-fit P icon is user-approved and locked. TestFlight is deferred.
 
-- **19 unit tests passed** on iOS 26.2 simulator, including the image engine, storage, workspace and five local StoreKit scenarios.
-- The deterministic image suite includes **48 generated cases**, all eight orientations, alpha, HEIC, exact/max dimensions, impossible byte targets and a separate 24 MP input.
-- **Five small-screen UI tests passed**, covering the free flow, native sharing, lifecycle, targeted accessibility, Photos import and saving, and Files export.
-- Separate large-screen conversion/share, full-size preview, and Dark Mode at the largest accessibility text size passed.
-- A native Files export was checked byte-for-byte against the verified output: 63,894 bytes, 600 × 600 JPEG.
-- A physical iPhone passed 14 core tests and the conversion/share UI flow. The full physical UI run was interrupted and requires repetition; it is not marked fully verified.
-- A development-signed iPhone-only Release archive built and passed local signature verification. It has not been validated for App Store distribution.
+## Verified engineering evidence
 
-These results come from separate runs. Earlier checks caught and resolved a Photos callback concurrency crash, missing result-screen feedback, contrast/clipping issues and an asynchronous StoreKit test assertion. The final unit rerun and simulator UI runs passed after those corrections.
+- **Minimum supported OS tested:** iOS17.0 on an iPhone SE3 simulator. Twenty unit tests passed, including six local StoreKit scenarios. All six UI scenarios have passing targeted results, including native Photos import/save and Files export/reimport.
+- **Native device:** iPhone 17 Pro Max on iOS26.1 passed launch/lifecycle, conversion/share and detail-preview checks across targeted runs. Seven real camera JPEG/HEIC files each produced exactly 600×600 JPEG outputs below 100,000 bytes. A 10,514,729-byte source produced a 99,889-byte output.
+- **Photo corpus:** 24 public photographic files, including 16 annotated orientation variants, exercised 120 byte/dimension/format cases using the unchanged production engine. A derived photographic transparent PNG added five cases. All passed. Source camera/location metadata was absent in outputs; basic ImageIO color/dimension fields remain. PNG retained transparent corners; JPEG flattened them to white.
+- **Visual review:** nature, interior, HDR, macro and orientation comparisons retained recognizable detail without obvious tinting at the tested limits. This is not a guarantee that every low-byte image preserves readable fine text or faces.
+- **Accessibility:** light/dark contrast checks and small-screen largest Dynamic Type conversion/paywall tests passed. Explicit outcome focus and purchase-status announcements are implemented. Spoken VoiceOver remains a human acceptance gate.
+- **Commerce:** local StoreKit tests cover unavailable products, purchase/cancel/failure/pending/approval, restore, ownership reload, refund and simulated product-lookup failure while owned. Paywall uses the loaded StoreKit display price. These tests do not validate a live App Store product.
+- **Release packaging:** a development-signed Release1.0.0(1) archive passed local signature checks and was installed/launched on a physical phone. No debug fixture or local StoreKit configuration is bundled. The locked1024 icon, metadata lengths and screenshot formats pass scripted checks.
 
-Remaining release gates include real sandbox/TestFlight commerce, older-OS compatibility, a real-camera/document legibility corpus, complete VoiceOver navigation, denied-permission checks, external Files providers and uninterrupted physical-device testing. The contrast audit covers stable first/result screens; native scroll-edge material limits automated contrast interpretation on scrolled content.
+Some initial UI runs failed because system selectors differed on iOS17, an accessibility service reported an invalid process, or a tap did not navigate. Harness corrections and isolated retests passed; no combined initial run is represented as all-green. Physical-device recordings, signing data and original photo corpus are not published.
 
-Synthetic fixtures are reproducible engineering tests, not user validation, portal certification or proof of market demand.
+The public photo corpus is attributed to [ianare/exif-samples contributors](https://github.com/ianare/exif-samples/tree/5332a9cf0220e9c6c93f88a187daa90808051e10). Source files and derivatives remain outside this repository.
 
-## Naming correction — 2026-09-26
+## Still required before shipping
 
-Consumer naming has been reopened. FileFit is the engineering codename. Previous branded screenshots are withdrawn from this showcase, and the earlier signed archive is historical evidence only. New release artwork and a fresh archive are required after naming is resolved. The neutral development bundle builds and all five local StoreKit tests pass after the development product ID change. No production purchase migration or release is claimed.
-
-The post-correction conversion/result/share UI test also passed. Current README images are unchanged attachments from that simulator test, visually inspected; they show the engineering codename and synthetic test artwork.
-
-## Provisional Pixmere identity — September 27, 2026
-
-The user selected Pixmere provisionally while retaining FileFit engineering/repository names. Five initial directions were followed by four focused refinements to remove paper/PDF associations. The recommended exact-fit P was reviewed at 1024, 60 and 40 px. The working UI and paywall use the same mark with emerald, ivory and sage. These are qualitative design judgments, not measured conversion results. No name clearance or reservation is claimed.
-
-All 19 unit tests passed after branding. All six simulator UI scenarios have passing evidence across separate runs, including the real localized StoreKit test price, conversion/share, preview, Photos import/save, Files export and targeted accessibility/lifecycle checks. The Photos permission test race was fixed; an infrastructure accessibility error passed on isolated retry. This is not a claim that every intermediate run was green. A fresh development-signed archive built and passed local signature verification; the first Pixmere archive installed and launched on the connected phone. The updated physical test run remains blocked by device lock. App Store Connect login is unavailable, so account configuration, real sandbox purchases, distribution validation and name reservation remain open.
-
-Two additional small-screen UI checks passed on iPhone SE (3rd generation), iOS 26.2, Dark Mode with the largest accessibility text size. The first screen and paywall were visually inspected. This is targeted accessibility evidence, not a complete spoken VoiceOver audit.
-
-The final retained Pixmere archive, including the paywall layout refinement, was also installed successfully on the connected iPhone on September 27. Physical test execution remains a separate outstanding gate.
-
-## Exact-fit refinement — September 27, 2026
-
-D replaces the earlier paper-fold P as the provisional working recommendation. The four focused simulator UI checks passed together after the asset update: accessibility/lifecycle, localized paywall, conversion/share and detail preview. Real captures and App Store compositions were regenerated and visually inspected. The installed simulator Home Screen confirms the new icon under the iOS mask. The prior development archive contains the older fold and is not evidence for this asset revision. No final icon approval or App Store release is claimed.
-
-The preceding source revision also passed [GitHub CI](https://github.com/sepidehdalir/filefit-ios/actions/runs/36303996013); this is distinct from the local asset-refinement validation.
-
-The exact-fit revision also passed two targeted small-screen Dark Mode checks at the largest accessibility text size; the first screen and paywall were visually inspected.
-
-## Locked production direction — September 27, 2026
-
-The user approved the exact-fit P as the final icon direction. The consumer name remains provisional. A full local simulator run passed 19 unit tests and six UI tests. Targeted follow-ups passed five StoreKit tests plus paywall presentation after pricing-load sequencing was improved, and three Dark Mode UI checks after an on-device white-on-sage button contrast finding was fixed. The physical suite itself did not pass and requires a follow-up; one audit was interrupted by phone use. A fresh development-signed Release candidate passed local signature verification. TestFlight was explicitly deferred; no distribution readiness, real sandbox result or App Store release is claimed.
+Human checks: spoken VoiceOver, actual provider/denied-permission flows, user-photo/face/document quality, large-camera stress and physical keyboard/rotation acceptance. Account checks: final name reservation, production identifiers/signing, real sandbox purchasing/offline ownership, App Store disclosures, distribution validation and submission approval. No App Store URL, market demand, revenue or production commerce is claimed.
