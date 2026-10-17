@@ -1,5 +1,8 @@
 # Pixmere · iOS product engineering
 
+**Current App Review status — October17,2026:** Rejected; clarification/reconsideration is in progress. Not publicly released. Earlier submission milestones below are historical.
+
+
 <img src="images/pixmere-icon.png" width="96" alt="Pixmere exact-fit P icon">
 
 **A photo that fits the limit.**
