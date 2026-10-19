@@ -1,6 +1,6 @@
 # Pixmere · iOS product engineering
 
-**Current App Review status — October17,2026:** Rejected; clarification/reconsideration is in progress. Not publicly released. Earlier submission milestones below are historical.
+**Current App Review status — October 19, 2026:** Rejected under Guideline 4.3(a). Apple confirmed receipt of an app-specific App Review Board appeal. Decision pending; not publicly released.
 
 
 <img src="images/pixmere-icon.png" width="96" alt="Pixmere exact-fit P icon">
@@ -9,7 +9,7 @@
 
 Pixmere is a native iPhone utility that prepares still images for uploads with simultaneous file-size, pixel-dimension and format constraints. It creates a separate copy, reads the encoded file back, and reports what passed before export.
 
-**Status:** Production 1.0 (1) is uploaded and processed in App Store Connect. Not released or submitted. Apple accepted the title Pixmere: Photo Compressor; no legal clearance is asserted. FileFit remains the stable engineering/repository identity. This public repository is a portfolio showcase; commercial application source is maintained privately.
+**Status:** Production 1.0 (1) was submitted, then rejected under Guideline 4.3(a). An App Review Board appeal is pending. Not released. Apple accepted the title Pixmere: Photo Compressor; no legal clearance is asserted. FileFit remains the stable engineering/repository identity. This public repository is a portfolio showcase; commercial application source is maintained privately.
 
 ## Problem and product
 
